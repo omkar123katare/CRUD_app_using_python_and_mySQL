@@ -13,7 +13,7 @@ Required Libraries:
 
 ![Screenshot (37)](https://user-images.githubusercontent.com/92416952/181185243-70e20372-4f0e-4a05-ade6-50ef53c46fdc.png)
 
-Now, for accessing the database through browser using Apache- we need to put 'localhost/phpmyadmin/' in our browser. Now, we can access our database on this locally hosted server. 
+Now, for accessing the database through browser using Apache- we need to put 'localhost/phpmyadmin/' in our browser. Now, we can access our database on this locally hosted server. This is our DBMS (a software that interracts with our database by issuing appropriate requests typically in SQL statements.)
 
 Changes made using python in the MySQL database will be reflected here.
 
