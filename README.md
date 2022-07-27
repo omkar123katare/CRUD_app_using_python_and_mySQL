@@ -34,3 +34,19 @@ In database, we perform only 4 types of operations
 4.**D**elete.
 
 
+Lets create an account for Hritik Roshan !!!
+
+![Screenshot (39)](https://user-images.githubusercontent.com/92416952/181248774-f5578dd0-98ef-4a5d-aa05-f7eca8a8a533.png)
+
+Lets see if it got reflected in our MySQL database :
+
+![Screenshot (41)](https://user-images.githubusercontent.com/92416952/181249016-ca439247-e778-44af-956a-c2eb61c4f329.png)
+
+Now that hritik's account is created, lets login to his account:
+
+![Screenshot (40)](https://user-images.githubusercontent.com/92416952/181249227-2397a67b-c40f-4422-ba79-122c33aa5b04.png)
+
+**Logged in !!!!**
+
+
+
