@@ -9,7 +9,7 @@ Here we will see how CRUP operations are run in databses using python.
 
 # Setup-
 Required Libraries:
-1. **mysql.connector-** For conection between python and mysql. So, that we can make changes in mysql databases by writing codes in python. OR access the mysql databases using codes written in python.
+1.  **mysql.connector-** For conection between python and mysql. So, that we can make changes in mysql databases by writing codes in python. OR access the mysql databases using codes written in python.
 
 ![Screenshot (37)](https://user-images.githubusercontent.com/92416952/181185243-70e20372-4f0e-4a05-ade6-50ef53c46fdc.png)
 
@@ -17,5 +17,18 @@ Now, for accessing the database through browser using Apache- we need to put 'lo
 
 Changes made using python in the MySQL database will be reflected here.
 
-This is our database server. so, this is a computer where all our databases are stores.
 ![Screenshot (38)](https://user-images.githubusercontent.com/92416952/181186719-0412fa04-4e27-4f7b-a18b-044641ad014a.png)
+
+2.  We need to create a 'connection' object to pass in all the credentials like host name,user name, password, database name. **self.conn=mysql.connector.connect(host="localhost",user="root",password="",database="users")**
+     
+3.  We need to create a cursor object to communicate with the database.
+This is our database server. so, this is a computer where all our databases are stores.
+**self.mycursor=self.conn.cursor()**
+
+In database, we perform only 4 types of operations
+1.**C**rud.
+2.**R**etrieve.
+3.**U**pdate.
+4.**D**elete.
+
+
