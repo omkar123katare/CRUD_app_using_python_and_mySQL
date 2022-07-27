@@ -19,7 +19,7 @@ Changes made using python in the MySQL database will be reflected here.
 
 ![Screenshot (38)](https://user-images.githubusercontent.com/92416952/181186719-0412fa04-4e27-4f7b-a18b-044641ad014a.png)
 
-2.  We need to create a 'connection' object to pass in all the credentials like host name,user name, password, database name. **self.conn=mysql.connector.connect(host="localhost",user="root",password="",database="users")**
+2.  We need to create a 'connection' object to pass in all the credentials like host name,user name, password, database name. **self.conn=mysql.connector.connect(host="localhostw",user="root",password="",database="users")**
 We commit the changes made to the database usgn this object (after we make change to ht etable by running queries using the cursor object) by **self.conn.commit()**
      
 3.  We need to create a cursor object to communicate with the database.
