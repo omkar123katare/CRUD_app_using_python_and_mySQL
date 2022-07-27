@@ -10,3 +10,4 @@ Here we will see how CRUP operations are run in databses using python.
 # Setup-
 Required Libraries:
 1. **mysql.connector-** For conection between python and mysql. So, that we can make changes in mysql databases by writing codes in python. OR access the mysql databases using codes written in python.
+![Screenshot (37)](https://user-images.githubusercontent.com/92416952/181185243-70e20372-4f0e-4a05-ade6-50ef53c46fdc.png)
