@@ -4,7 +4,7 @@ Here we will see how CRUP operations are run in databses using python.
 
 **XAMP-** This is a software using which we can run databases on our own machine, so we dont need to use server like AWS.
 1. XAMP offeres **Apache**- Using this we can work with our databases through our web-browser .
-2. XAMP offers **MariaDB**- This gives us MySQL databases functionalities.
+2. XAMP offers **MariaDB**- This gives us MySQL database management functionalities.
 
 
 # Setup-
@@ -13,7 +13,7 @@ Required Libraries:
 
 ![Screenshot (37)](https://user-images.githubusercontent.com/92416952/181185243-70e20372-4f0e-4a05-ade6-50ef53c46fdc.png)
 
-Now, for accessing the database through browser using Apache- we need to put 'localhost/phpmyadmin/' in our browser. Now, we can access our database on this locally hosted server. This is our DBMS (a software that interracts with our database by issuing appropriate requests typically in SQL statements.)
+Now, for accessing the database management system through browser using Apache- we need to put 'localhost/phpmyadmin/' in our browser. Now, we can access our databases on this locally hosted DBMS server. This is our DBMS (a software that interracts with our database by issuing appropriate requests typically in SQL statements.)
 
 Changes made using python in the MySQL database will be reflected here.
 
